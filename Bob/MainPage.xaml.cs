@@ -26,11 +26,16 @@ namespace Bob
         {
             this.InitializeComponent();
             Initpage();
+            CalculateSize();
         }
 
         //you is annoying
 
         public void Initpage()
+        {
+
+        }
+        public void CalculateSize()
         {
 
         }
