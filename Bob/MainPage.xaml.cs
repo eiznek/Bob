@@ -25,6 +25,12 @@ namespace Bob
         public MainPage()
         {
             this.InitializeComponent();
+            Initpage();
+        }
+
+        public void Initpage()
+        {
+
         }
     }
 }
