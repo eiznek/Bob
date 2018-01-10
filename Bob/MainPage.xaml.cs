@@ -28,6 +28,8 @@ namespace Bob
             Initpage();
         }
 
+        //you is annoying
+
         public void Initpage()
         {
 
