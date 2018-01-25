@@ -19,7 +19,7 @@ namespace Bob
         }
         public override string ToString()
         {
-            return $"Side";
+            return base.ToString();
         }
     }
 }

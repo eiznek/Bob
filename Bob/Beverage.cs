@@ -20,7 +20,7 @@ namespace Bob
         }
         public override string ToString()
         {
-            return $"Trade-In:{tradeIn}";
+            return base.ToString();
         }
     }
 }

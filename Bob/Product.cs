@@ -22,7 +22,7 @@ namespace Bob
         }
         public override string ToString()
         {
-            return $"Name: {name} Price: {price}";
+            return $"{name} \n ${price} \n";
         }
         public string Name
         {

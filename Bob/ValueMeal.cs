@@ -22,11 +22,18 @@ namespace Bob
         }
         public bool IsAvailable()
         {
-            return true;
+            if (DateTime.Now.TimeOfDay >= startTime.TimeOfDay && DateTime.Now.TimeOfDay <= endTime.TimeOfDay)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         public override string ToString()
         {
-            return $"Start: {startTime} End: {endTime}";
+            return base.ToString();
         }
         public DateTime StartTime
         {
